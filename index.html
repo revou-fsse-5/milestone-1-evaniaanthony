@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap');
+    </style>
+    <title>The Fat Panda</title>
+</head>
+<body>
+    <header>
+        <nav class = "container container-navigation">
+            <div class ="navigation-logo">
+                <img src="assets/logo.png" alt="Fat Panda Logo">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <a><i class="fa-solid fa-bars"></i></a>
+            </div>
+            <div class = "navigation-content" id ="nav-content">
+                <div class ="navigation-menu" id="nav-menu">
+                    <ul>
+                        <li>About</li>
+                        <li>Menu</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class = "navigation-buttons">
+                    <button>Reservations</button>
+                    <button class = "button-background">Order Online</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class = "container container-banner">
+            <img class = "banner-img" src="assets/background image.webp" alt="Background Image">
+            <div class="banner-content">
+                <h1>The Real Deal on Asian Food</h1>
+                <p>Serve the most authentic asian food in the town.</p>
+            </div>
+            <button>Menu</button>
+        </section>
+
+        <section class="container container-product">
+            <div class = "product">
+                <img src="assets/rice.png">
+                <h2>Rice Bowls</h2>
+                <p>Topped with savory meats, fresh vegetables, and a rich, flavorful sauce.</p>
+            </div>
+            <div class = "product">
+                <img src="assets/bowl.png">
+                <h2>Soups</h2>
+                <p>Brimming with aromatic herbs, tender meats, and fresh veggies.</p>
+            </div>
+            <div class = "product">
+                <img src="assets/dumpling.png">
+                <h2>Dumplings</h2>
+                <p>Filled with juicy pork, shrimp, or vegetables, perfect for a quick bite or a hearty meal.</p>
+            </div>
+            <div class = "product">
+                <img src="assets/noodles.png">
+                <h2>Noodles</h2>
+                <p>Tossed with a medley of vibrant vegetables and succulent meats in a delicious sauce</p>
+            </div>
+            <div class = "product">
+                <img src="assets/cupcake.png">
+                <h2>Dessert</h2>
+                <p>Perfect blend of delicate flavors and textures.</p>
+            </div>
+            <button>Order</button>
+        </section>
+        <section class = "container container-about">
+            <article>
+                <div class = "about-content">
+                    <h2>Fresh.</h2>
+                    <h2>Authentic.</h2>
+                    <h2>Simple.</h2>
+                    <p>Immerse yourself in the vibrant flavors of traditional Chinese dishes crafted with the freshest ingredients. From savory dim sum to aromatic stir-fries, each dish embodies the essence of authenticity. Join us and savor the simplicity of true Chinese cuisine at its finest.</p>
+                </div>
+            </article>
+            <img src="assets/michelin.png">
+        </section>
+        <section class = "container container-reserve">
+            <div class ="order-online">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h2 class = "title">Order Online</h2>
+                <h2 class = "body">​Our Noodles Are Coming Your Way</h2>
+                <button>Order Now</button>
+            </div>
+            <div class="reservation">
+                <h2>Reserve a Table</h2>
+                <p>To help us find the best table for you, please fill the form below.</p>
+                <form action="" method="get">
+                    <label for="full-name">Full Name </label>
+                    <input id="full-name" name="full-name" type="text" required />
+
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" name="phone" type="number" required />
+
+                    <label for="party">Number of Parties</label>
+                    <input id="party" name="party" type="number" required />
+
+                    <label for="date">Date</label>
+                    <input id="date" name="date" type="date" required />
+
+                    <label for="time">Time</label>
+                    <input id="time" name="time" type="time" required />
+                    
+                    <label for="message">Special Request</label>
+                    <textarea id="message" name="message"></textarea>
+    
+                    <button type="submit" value="Submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section class = "gallery">
+            <h2>Follow us @thefatpanda</h2>
+                <div class = "scroll-grid-container">
+                    <div class="grid-item">
+                        <img src = "assets/mochi.webp" alt = "image">
+                    </div>
+                    <div class="grid-item">
+                        <img src = "assets/lo mein.webp" alt = "image">
+                    </div>
+                    <div class="grid-item">
+                        <img src = "assets/beef bowl.webp" alt = "image">
+                    </div>
+                    <div class="grid-item">
+                        <img src = "assets/fish soup.webp" alt = "image">
+                    </div>
+                    <div class="grid-item">
+                        <img src = "assets/chicken bowl.webp"alt = "image">
+                    </div>
+                    <div class="grid-item">
+                        <img src = "assets/fried dumpling.webp"alt = "image">
+                    </div>
+                    <div class="grid-item">
+                        <img src = "assets/xiao long bao.webp" alt = "image">
+                    </div>
+                    <div class="grid-item">
+                        <img src = "assets/jujube-dessert-soup-4.webp" alt= "image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class = "container container-footer">
+        <div class = "footer-content">
+            <article>
+                <h2>Contact Us</h2>
+                <p>123-456-7890</p>
+                <p>info@site.com</p>
+            </article>
+            <article>
+                <h2>Address</h2>
+                <p>500 Terry Francine Street</p> 
+                <p>Francisco, CA 94158</p> 
+            </article>
+            <article>
+                <h2>Opening Hours</h2>
+                <p>Mon - Fri: 8am - 8pm</p>
+                <p>Saturday: 9am - 7pm</p>
+                <p>Sunday: 9am - 8pm</p>   
+            </article>
+        </div>
+        <div class = "icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <p class = "credit">Created by Evania Joycelin</p>
+    </footer>
+
+    <!-- Icon -->
+    <script src="https://kit.fontawesome.com/33f51cc872.js" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
