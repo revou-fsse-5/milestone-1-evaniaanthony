@@ -38,9 +38,11 @@ The website is designed to be fully responsive, providing a good user experience
 Desktop:
 
 <img src="readme-assets/desktop.png" alt="desktop" width="300"/>
+
 Tablet:
 
 <img src="readme-assets/tablet.png" alt="tablet" width="300"/>
+
 Mobile:
 
 <img src="readme-assets/mobile.png" alt="mobile" width="300"/>
